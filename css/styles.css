@@ -43,3 +43,28 @@ body .title-image{
   width: 60%;
   transform: rotate(25deg);
 }
+
+body #features {
+  padding:  7% 15%;
+}
+body .feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+body .feature-box h3 {
+  font-family: "Montserrat-Bold";
+}
+
+body .feature-box p {
+ color: #8f8f8f; 
+}
+
+body .feature-box .icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+body .feature-box .icon:hover{
+  color: #ff4c68 ; 
+}
