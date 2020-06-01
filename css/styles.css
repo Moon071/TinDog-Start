@@ -7,10 +7,10 @@ body #title{
 }
 
 body .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
-body #title h1 {
+body h1 {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
@@ -42,17 +42,21 @@ body .download-button{
 body .title-image{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 body #features {
   padding:  7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 body .feature-box{
   text-align: center;
   padding: 5%;
 }
 
-body .feature-box h3 {
+body h3 {
   font-family: "Montserrat-Bold";
 }
 
@@ -67,4 +71,77 @@ body .feature-box .icon{
 
 body .feature-box .icon:hover{
   color: #ff4c68 ; 
+}
+
+body #testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+body h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body .testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+body #press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+body .press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+body .carousel-item{
+  padding: 7% 15%;
+}
+
+body #pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+body .pricing-column{
+  padding: 3% 2%
+}
+
+body #cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+body .cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+body #footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+body .social-icon{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  body #title {
+    text-align: center;
+  }
+  body .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
